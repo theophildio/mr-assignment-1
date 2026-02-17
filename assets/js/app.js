@@ -15,7 +15,7 @@ fetch(url)
         words.length > 4 ? words.slice(0, 4).join(" ") + "..." : product.title;
 
       container.innerHTML += `
-        <div class="card bg-base-100 w-96 shadow-sm">
+        <div class="card bg-base-100 md:w-96 shadow-sm">
           <figure class="h-52 flex items-center justify-center bg-gray-200">
             <img
               class="max-h-full object-contain p-3"
